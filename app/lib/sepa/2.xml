@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.03" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+																	<CstmrCdtTrfInitn>
+																	<GrpHdr><MsgId>Betaling-2</MsgId><CreDtTm>2016-05-09T16:30:21</CreDtTm><NbOfTxs>1</NbOfTxs><InitgPty><Nm>Opwaars</Nm></InitgPty></GrpHdr><PmtInf><PmtInfId>Betaling-2</PmtInfId><PmtMtd>TRF</PmtMtd><NbOfTxs>1</NbOfTxs><ReqdExctnDt>2016-05-09</ReqdExctnDt><Dbtr><Nm>Opwaars</Nm></Dbtr><DbtrAcct><Id><IBAN>NL81RABO0363973249</IBAN></Id><Ccy>EUR</Ccy></DbtrAcct><DbtrAgt><FinInstnId><BIC>INGBNL2A</BIC></FinInstnId></DbtrAgt><CdtTrfTxInf><PmtId><EndToEndId>Betaling-2-Betalingen-0</EndToEndId></PmtId><Amt><InstdAmt Ccy="EUR">100</InstdAmt></Amt><CdtrAgt><FinInstnId><BIC>INGBNL2A</BIC></FinInstnId></CdtrAgt><Cdtr><Nm>test</Nm></Cdtr><CdtrAcct><Id><IBAN>NL81RABO0363973249</IBAN></Id></CdtrAcct><RmtInf><Ustrd>Uitbetaling Opwaarts</Ustrd></RmtInf></CdtTrfTxInf></PmtInf></CstmrCdtTrfInitn>
+																</Document>

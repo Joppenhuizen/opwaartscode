@@ -1,0 +1,11 @@
+Options -Multiviews
+
+RewriteEngine On
+AddType text/css .css
+RewriteBase /public
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+AddHandler x-httpd-php56 .php

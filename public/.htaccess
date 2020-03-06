@@ -1,0 +1,10 @@
+Options -Multiviews
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^public/(css|js|img|jpe?g|jpg|gif)/(.*)?$ /$1/$2 [L,QSA,R=301]
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+AddType text/css .css
